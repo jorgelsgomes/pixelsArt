@@ -6,7 +6,7 @@ function createColor() {
   const b = Math.floor(Math.random() * 254);
   return `rgb(${r}, ${g}, ${b})`;
 }
-// Função que capitura as paletas e coloca a cor.
+// Função que captura as paletas e coloca a cor.
 function paintPalette() {
   const colorDiv = document.querySelectorAll('.color');
   for (let index = 1; index < colorDiv.length; index += 1) {
